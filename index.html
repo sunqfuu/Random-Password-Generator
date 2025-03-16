@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+    <title>Password Generator</title>
+</head>
+<body>
+    <div id="main-content">
+        <h1 class="main-h1">Generate a <span class="color-green">Secure Password</span></h1>
+        <p class="main-p">Never use an insecure password again.</p>
+
+        <label for="Password length" id="length-input-label">Password Length</label>
+        <input type="number" id="length-input" name="Password length" value="15"></input>
+        <div class="toggles">
+            <div class="toggle-container">    
+                <input type="checkbox" class="toggle" id="toggle-letters" name="toggle-letters" checked>
+                <label for="toggle-letters">Active Letters</label>
+            </div>
+            <div class="toggle-container">  
+                <input type="checkbox" class="toggle" id="toggle-numbers" name="toggle-numbers" checked>
+                <label for="toggle-numbers">Active Numbers</label>
+            </div>  
+            <div class="toggle-container">
+                <input type="checkbox" class="toggle" id="toggle-specials" name="toggle-specials" checked>
+                <label for="toggle-specials">Active Special Characters</label>
+            </div>
+        </div>
+        <span id="error-span"></span>
+
+        <div class="button-container">
+            <button id="generate-psw-btn" onclick="generatePsw();">Generate passwords</button>
+            <button id="clear-psw-btn" onclick="clearPsw();">Clear password</button>
+        </div>
+
+        <span class="horizontal-line"></span>
+
+        <div id="password">
+            <div class="password-container" id="psw-ctn">
+                <span id="psw-el"></span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
