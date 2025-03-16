@@ -200,6 +200,8 @@ button:active {
     height: 1px;
     background-color: var(--blue);
     margin: 30px 50px;
+    text-align: center;
+    text-transform: capitalize;
 }
 
 #error-span {
