@@ -1,6 +1,6 @@
 # 🔑 **Random Password Generator**
 
-This is a simple and secure **Random Password Generator** built with JavaScript. The tool generates strong passwords of customizable lengths with a mix of uppercase, lowercase letters, numbers, and special characters. 💻🔐
+This is a simple and secure **Random Password Generator** built with JavaScript. The tool generates strong passwords of customizable lengths with a mix of uppercase, lowercase letters, numbers, and special characters. 💻 🔐
 
 ## Features 🌟
 
